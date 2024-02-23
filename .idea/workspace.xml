@@ -4,27 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46483df6-5bb2-4bc9-84e4-3838b99d1a09" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pen/src/main/java/com/systemdesign/pen/models/nib/Nib.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pen/src/main/java/com/systemdesign/pen/models/nib/NibType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pen/src/main/java/com/systemdesign/pen/models/pens/BallPen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pen/src/main/java/com/systemdesign/pen/models/pens/Brand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pen/src/main/java/com/systemdesign/pen/models/pens/FountainPen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pen/src/main/java/com/systemdesign/pen/models/pens/GelPen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pen/src/main/java/com/systemdesign/pen/models/pens/MarkerPen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pen/src/main/java/com/systemdesign/pen/models/pens/NonRefillablePen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pen/src/main/java/com/systemdesign/pen/models/pens/Pen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pen/src/main/java/com/systemdesign/pen/models/pens/PenType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pen/src/main/java/com/systemdesign/pen/models/pens/RefillablePen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pen/src/main/java/com/systemdesign/pen/models/refils/InkColour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pen/src/main/java/com/systemdesign/pen/models/refils/RefilType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pen/src/main/java/com/systemdesign/pen/models/refils/Refill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pen/src/main/java/com/systemdesign/pen/services/factory/PenFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pen/src/main/java/com/systemdesign/pen/services/registry/PenRegistry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pen/src/main/java/com/systemdesign/pen/PenApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/pen/src/main/java/com/systemdesign/pen/PenApplication.java" afterDir="false" />
-    </list>
+    <list default="true" id="46483df6-5bb2-4bc9-84e4-3838b99d1a09" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,11 +42,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -98,11 +78,12 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "openjdk-21",
-    "last_opened_file_path": "C:/Users/codin/Downloads/pen",
+    "last_opened_file_path": "C:/low-level-design",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "spring.configuration.checksum": "b644b3f57e98ab9788e44784f9efd365",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -135,6 +116,7 @@
       <option name="presentableId" value="Default" />
       <updated>1708669410610</updated>
       <workItem from="1708669411643" duration="9193000" />
+      <workItem from="1708711476226" duration="72000" />
     </task>
     <task id="LOCAL-00001" summary="Added Readme for pen design">
       <created>1708671441001</created>
