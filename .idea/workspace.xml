@@ -5,7 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46483df6-5bb2-4bc9-84e4-3838b99d1a09" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pen/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pen/src/main/java/com/systemdesign/pen/models/nib/Nib.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pen/src/main/java/com/systemdesign/pen/models/nib/NibType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pen/src/main/java/com/systemdesign/pen/models/pens/BallPen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pen/src/main/java/com/systemdesign/pen/models/pens/Brand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pen/src/main/java/com/systemdesign/pen/models/pens/FountainPen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pen/src/main/java/com/systemdesign/pen/models/pens/GelPen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pen/src/main/java/com/systemdesign/pen/models/pens/MarkerPen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pen/src/main/java/com/systemdesign/pen/models/pens/NonRefillablePen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pen/src/main/java/com/systemdesign/pen/models/pens/Pen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pen/src/main/java/com/systemdesign/pen/models/pens/PenType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pen/src/main/java/com/systemdesign/pen/models/pens/RefillablePen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pen/src/main/java/com/systemdesign/pen/models/refils/InkColour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pen/src/main/java/com/systemdesign/pen/models/refils/RefilType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pen/src/main/java/com/systemdesign/pen/models/refils/Refill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pen/src/main/java/com/systemdesign/pen/services/factory/PenFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pen/src/main/java/com/systemdesign/pen/services/registry/PenRegistry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pen/src/main/java/com/systemdesign/pen/PenApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/pen/src/main/java/com/systemdesign/pen/PenApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +49,15 @@
         </projects_view>
       </state>
     </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -63,6 +90,10 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
@@ -103,8 +134,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708669410610</updated>
-      <workItem from="1708669411643" duration="2012000" />
+      <workItem from="1708669411643" duration="9193000" />
     </task>
+    <task id="LOCAL-00001" summary="Added Readme for pen design">
+      <created>1708671441001</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1708671441001</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added intellij files">
+      <created>1708671524942</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1708671524942</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,5 +169,29 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Added Readme for pen design" />
+    <MESSAGE value="Added intellij files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added intellij files" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/pen/src/main/java/com/systemdesign/pen/PenApplication.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/pen/src/main/java/com/systemdesign/pen/PenApplication.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/pen/src/main/java/com/systemdesign/pen/PenApplication.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
