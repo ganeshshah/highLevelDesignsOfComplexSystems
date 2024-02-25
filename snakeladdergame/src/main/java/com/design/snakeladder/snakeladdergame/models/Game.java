@@ -43,14 +43,20 @@ public class Game {
         return lastPlayerMoveIndex;
     }
 
-    public Game(Board board, Dice dice, List<Player> players, List<Player> rankings, GameStatus gameStatus, Integer totalButtonPerPlayer, Integer lastPlayerMoveIndex) {
+    public void setGameStatus(GameStatus gameStatus) {
+        this.gameStatus = gameStatus;
+    }
+
+    public Game(Board board, Dice dice, List<Player> players, GameStatus gameStatus, Integer totalButtonPerPlayer, Integer lastPlayerMoveIndex) {
         this.board = board;
         this.dice = dice;
         this.players = players;
-        this.rankings = rankings;
         this.gameStatus = gameStatus;
         this.totalButtonPerPlayer = totalButtonPerPlayer;
         this.lastPlayerMoveIndex = lastPlayerMoveIndex;
+        this.rankings = players;
     }
+
+
 
 }

@@ -1,5 +1,7 @@
 package com.design.snakeladder.snakeladdergame.models;
 
+import java.util.Random;
+
 public class Dice {
 
     private Integer maxDiceNumber;
@@ -7,7 +9,8 @@ public class Dice {
         this.maxDiceNumber = maxDiceNumber;
     }
     // todo
-    void roll(){
-
+    public Integer roll(){
+       Random random = new Random();
+       return random.nextInt(this.maxDiceNumber + 1);
     }
 }
