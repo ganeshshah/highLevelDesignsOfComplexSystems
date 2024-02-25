@@ -11,4 +11,7 @@
 - support tournament hierarchy
 - How to end the game / decide someone won when opponent left
 - can there be any other way to win just not straight line
- 
+
+## Class Diagram
+
+ ![classDiagram.png](classDiagram.png)

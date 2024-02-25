@@ -65,6 +65,7 @@ public class Game {
         move.getCell().setSymbol(move.getSymbol());
 
         for (GameWinningStrategy strategy: gameWinningStrategies) {
+
             if (strategy.checkIfWon(this.board, this.players.get(lastMovedPlayerIndex), move.getCell())) {
                 gameStatus = GameStatus.ENDED;
                 winner = this.players.get(lastMovedPlayerIndex);

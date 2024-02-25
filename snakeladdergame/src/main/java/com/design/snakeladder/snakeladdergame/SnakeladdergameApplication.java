@@ -7,7 +7,12 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SnakeladdergameApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SnakeladdergameApplication.class, args);
+		//SpringApplication.run(SnakeladdergameApplication.class, args);
+
+		System.out.println("hello world");
+
+
+
 	}
 
 }

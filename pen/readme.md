@@ -9,3 +9,7 @@
 - A pen can have a brand
 - Can have characteristics like : smooth, fast, sharp, long-lasting like writo-meter pen
 - Can have cap mechanism or push-pull mechanism
+
+## Class Diagram
+
+![classDiagram.png](classDiagram.png)

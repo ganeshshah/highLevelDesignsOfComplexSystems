@@ -13,3 +13,4 @@
 - Can there be more than one dice. For now we are using only 1 dice. The max no. for a single dice should be configurable.
 - The same player should roll the dice again if they get the highest number.
 - Winner is someone who get's exactly 100 / max size of the board.
+- For every game maintain leader board | Rankings for all player
