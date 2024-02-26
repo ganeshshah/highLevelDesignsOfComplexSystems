@@ -15,3 +15,7 @@
 - Fees is a function of slot duration and ( vehicle type / hr cost ) and Electricity used if it's a electric car
 - every floor has a mix of vehicles
 - We will store address of every parking lot
+
+## Class Diagram 
+
+![parkinglot.png](parkinglot.png)
