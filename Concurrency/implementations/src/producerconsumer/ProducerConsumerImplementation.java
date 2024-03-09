@@ -29,6 +29,8 @@ public class ProducerConsumerImplementation {
         producerThread.start();
         consumerThread.start();
 
+        // why not use suspend, resume, stop ==> no monitor-lock is release, no resource cleanup happens.
+
     }
 
 }
