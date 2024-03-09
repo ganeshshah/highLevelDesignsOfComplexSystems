@@ -1,41 +1,42 @@
-package producerconsumer;
+package readwritelock;
 
 import java.util.LinkedList;
 import java.util.Queue;
+import java.util.concurrent.locks.ReadWriteLock;
+import java.util.concurrent.locks.ReentrantLock;
 
 public class SharedResource {
 
-    private Queue<Integer> sharedBuffer;
-    private int bufferSize;
+    boolean isAvailable = false;
 
-    public SharedResource(int bufferSize) {
-        this.bufferSize = bufferSize;
-        this.sharedBuffer = new LinkedList<>();
-    }
-
-    public synchronized void produce(int item) throws Exception{
-
-        while(sharedBuffer.size() == bufferSize){
-            System.out.println("buffer is full, waiting for consumer to consume");
-            wait();
+    public void produce(ReadWriteLock lock){
+        try{
+            lock.readLock().lock();
+            System.out.println("lock acquired by thread : " + Thread.currentThread().getName());
+            isAvailable = true;
+            Thread.sleep(4000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }finally {
+            lock.readLock().unlock();
+            System.out.println("lock released by thread : " + Thread.currentThread().getName());
         }
 
-        sharedBuffer.add(item);
-        System.out.println("produced item : " + item);
-        notify();
     }
 
-    public synchronized void consume() throws Exception{
-
-        while(sharedBuffer.isEmpty()){
-            System.out.println("buffer is empty, waiting for producer to produce");
-            wait();
+    public void consume(ReadWriteLock lock){
+        try{
+            lock.writeLock().lock();
+            System.out.println("reentrantLock acquired by thread : " + Thread.currentThread().getName());
+            isAvailable = true;
+            Thread.sleep(4000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }finally {
+            System.out.println("reentrantLock released by thread : " + Thread.currentThread().getName());
+            lock.writeLock().unlock();
         }
 
-        System.out.println("consumed item : " + sharedBuffer.poll());
-        notify();
     }
-
-
 
 }
