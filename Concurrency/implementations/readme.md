@@ -7,4 +7,16 @@
 - pessimistic lock vs optimistic lock
 - semaphores, stamped lock, condition
 - Condition [ await, signal ] , wait, notify
-- 
+
+
+
+--------------------------------------------------------------
+| Lock Based Mechanism | Lock Free Mechanism                |
+|----------------------|------------------------------------|
+| Synchronized         | CAS Operation ( Compare and swap ) |
+| Reentrant            |                                    |
+| Stamped              | Atomic Integer                     |
+| ReadWrite            | Atomic Boolean                     |
+| Semaphores           | Atomic Long                        |
+| -                    | Atomic Reference                   |
+---------------------------------------------------------------
