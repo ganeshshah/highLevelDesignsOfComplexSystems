@@ -5,4 +5,6 @@
 - join(), Thread Priority
 - reentrantLock, readWriteLock
 - pessimistic lock vs optimistic lock
+- semaphores, stamped lock, condition
+- Condition [ await, signal ] , wait, notify
 - 
