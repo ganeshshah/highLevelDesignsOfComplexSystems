@@ -1,11 +1,10 @@
 package threadpool;
 
-import java.sql.Array;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.*;
 
-public class CompletableFutureExample {
+public class FutureAndCallable {
 
     // callable has return type, runnable does not have return type
 

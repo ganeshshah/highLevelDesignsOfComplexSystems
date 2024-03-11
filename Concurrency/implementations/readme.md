@@ -7,6 +7,8 @@
 - pessimistic lock vs optimistic lock
 - semaphores, stamped lock, condition
 - Condition [ await, signal ] , wait, notify
+- ThreadPoolExecutor
+- 
 
 
 
