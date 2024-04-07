@@ -4,7 +4,110 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46483df6-5bb2-4bc9-84e4-3838b99d1a09" name="Changes" comment="" />
+    <list default="true" id="46483df6-5bb2-4bc9-84e4-3838b99d1a09" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Concurrency/JavaConcurrencyBookImplementation/src/JavaThreadsAndRunnables/filesearch/group/ParallelGroupFileSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrency/JavaConcurrencyBookImplementation/src/JavaThreadsAndRunnables/filesearch/group/ParallelGroupFileTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrency/JavaConcurrencyBookImplementation/src/JavaThreadsAndRunnables/filesearch/main/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrency/JavaConcurrencyBookImplementation/src/JavaThreadsAndRunnables/filesearch/serial/SerialFileSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrency/JavaConcurrencyBookImplementation/src/JavaThreadsAndRunnables/filesearch/utils/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrency/JavaConcurrencyBookImplementation/src/JavaThreadsAndRunnables/matrixmultiplier/main/ParallelGroupMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrency/JavaConcurrencyBookImplementation/src/JavaThreadsAndRunnables/matrixmultiplier/main/ParallelIndividualMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrency/JavaConcurrencyBookImplementation/src/JavaThreadsAndRunnables/matrixmultiplier/main/ParallelRowMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrency/JavaConcurrencyBookImplementation/src/JavaThreadsAndRunnables/matrixmultiplier/main/SerialMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrency/JavaConcurrencyBookImplementation/src/JavaThreadsAndRunnables/matrixmultiplier/parallel/group/GroupMultiplierTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrency/JavaConcurrencyBookImplementation/src/JavaThreadsAndRunnables/matrixmultiplier/parallel/group/ParallelGroupMultiplier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrency/JavaConcurrencyBookImplementation/src/JavaThreadsAndRunnables/matrixmultiplier/parallel/individual/IndividualMultiplierTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrency/JavaConcurrencyBookImplementation/src/JavaThreadsAndRunnables/matrixmultiplier/parallel/individual/ParallelIndividualMultiplier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrency/JavaConcurrencyBookImplementation/src/JavaThreadsAndRunnables/matrixmultiplier/parallel/row/ParallelRowMultiplier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrency/JavaConcurrencyBookImplementation/src/JavaThreadsAndRunnables/matrixmultiplier/parallel/row/RowMultiplierTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrency/JavaConcurrencyBookImplementation/src/JavaThreadsAndRunnables/matrixmultiplier/serial/SerialMultiplier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrency/JavaConcurrencyBookImplementation/src/JavaThreadsAndRunnables/matrixmultiplier/util/MatrixGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrency/JavaConcurrencyBookImplementation/src/largeFileProcessing/ParallelProcessing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrency/JavaConcurrencyBookImplementation/src/largeFileProcessing/ProcessLargeFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrency/JavaConcurrencyBookImplementation/src/largeFileProcessing/SequentialProcessing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrency/implementations/src/compareandswap/CompareAndSwapLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrency/implementations/src/compareandswap/OptimisticLockCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrency/implementations/src/cyclicbarrier/CyclicBarrierDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrency/implementations/src/interviewpreparation/diningphilosopher/DiningPhilosophers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrency/implementations/src/interviewpreparation/diningphilosopher/Philosopher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrency/implementations/src/interviewpreparation/executorserviceimplementation/fixedthreadpool/CustomExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrency/implementations/src/interviewpreparation/executorserviceimplementation/fixedthreadpool/CustomExecutorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrency/implementations/src/interviewpreparation/executorserviceimplementation/fixedthreadpool/CustomExecutors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrency/implementations/src/interviewpreparation/executorserviceimplementation/fixedthreadpool/CustomThreadPoolExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrency/implementations/src/interviewpreparation/executorserviceimplementation/fixedthreadpool/ExecutorMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrency/implementations/src/interviewpreparation/executorserviceimplementation/fixedthreadpool/WorkerThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrency/implementations/src/interviewpreparation/executorserviceimplementation/fixedthreadpool/frommedium/CustomExecutorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrency/implementations/src/interviewpreparation/executorserviceimplementation/fixedthreadpool/frommedium/CustomExecutors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrency/implementations/src/interviewpreparation/executorserviceimplementation/fixedthreadpool/frommedium/CustomThreadPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrency/implementations/src/interviewpreparation/executorserviceimplementation/fixedthreadpool/frommedium/Execution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrency/implementations/src/interviewpreparation/executorserviceimplementation/fixedthreadpool/frommedium/ExecutorServiceMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrency/implementations/src/interviewpreparation/executorserviceimplementation/fixedthreadpool/frommedium/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrency/implementations/src/interviewpreparation/executorserviceimplementation/prioritybasedexecutor/PriorityBasedExecutors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrency/implementations/src/interviewpreparation/executorserviceimplementation/prioritybasedexecutor/PriorityBasedTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrency/implementations/src/interviewpreparation/executorserviceimplementation/prioritybasedexecutor/PriorityBasedThreadExecutorMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrency/implementations/src/interviewpreparation/executorserviceimplementation/prioritybasedexecutor/PriorityBasedThreadExecutorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrency/implementations/src/interviewpreparation/executorserviceimplementation/prioritybasedexecutor/PriorityBasedThreadPoolExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrency/implementations/src/interviewpreparation/executorserviceimplementation/prioritybasedexecutor/WorkerThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrency/implementations/src/interviewpreparation/executorserviceimplementation/scheduledexecutor/CustomScheduledExecutorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrency/implementations/src/interviewpreparation/executorserviceimplementation/scheduledexecutor/CustomScheduledExecutors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrency/implementations/src/interviewpreparation/executorserviceimplementation/scheduledexecutor/CustomScheduledThreadPoolExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrency/implementations/src/interviewpreparation/executorserviceimplementation/scheduledexecutor/ScheduledExecutorMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrency/implementations/src/interviewpreparation/executorserviceimplementation/scheduledexecutor/ScheduledTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrency/implementations/src/interviewpreparation/executorserviceimplementation/scheduledexecutor/TaskType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrency/implementations/src/interviewpreparation/executorserviceimplementation/scheduledexecutor/WorkerThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrency/implementations/src/interviewpreparation/executorserviceimplementation/scheduledexecutor/defaultimplementation/CustomScheduledExecutorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrency/implementations/src/interviewpreparation/executorserviceimplementation/scheduledexecutor/defaultimplementation/ScheduledExecutorExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrency/implementations/src/interviewpreparation/executorserviceimplementation/workstealingthreadpoolexecutor/WorkStealingExecutorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrency/implementations/src/interviewpreparation/executorserviceimplementation/workstealingthreadpoolexecutor/WorkStealingExecutorThreadPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrency/implementations/src/interviewpreparation/executorserviceimplementation/workstealingthreadpoolexecutor/WorkStealingExecutors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrency/implementations/src/interviewpreparation/executorserviceimplementation/workstealingthreadpoolexecutor/WorkStealingMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrency/implementations/src/interviewpreparation/executorserviceimplementation/workstealingthreadpoolexecutor/WorkStealingTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrency/implementations/src/interviewpreparation/executorserviceimplementation/workstealingthreadpoolexecutor/WorkerThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrency/implementations/src/interviewpreparation/leetcode/DiningPhilosophers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrency/implementations/src/interviewpreparation/taskscheduler/LeetcodeProblem621.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrency/implementations/src/interviewpreparation/taskscheduler/SimpleThreadScheduler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrency/implementations/src/interviewpreparation/threadsafearraylist/ThreadSafeArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrency/implementations/src/interviewpreparation/threadsafearraylist/ThreadSafeArrayListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrency/implementations/src/javabrains/calculateprime/CalculateNthPrimeNumberSerial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrency/implementations/src/javabrains/calculateprime/CalculateNthPrimeParallel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrency/implementations/src/javabrains/calculateprime/CalculatePrimeMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrency/implementations/src/javabrains/calculateprime/CheckIfPrimeRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrency/implementations/src/producerconsumer/queueimplementation2/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrency/implementations/src/producerconsumer/queueimplementation2/ProduceConsumerMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrency/implementations/src/producerconsumer/queueimplementation2/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrency/implementations/src/producerconsumer/usingblockingqueue/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrency/implementations/src/producerconsumer/usingblockingqueue/ProduceConsumerMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrency/implementations/src/producerconsumer/usingblockingqueue/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrency/implementations/src/producerconsumer/usingqueueswaroop/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrency/implementations/src/producerconsumer/usingqueueswaroop/ProduceConsumerMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrency/implementations/src/producerconsumer/usingqueueswaroop/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache-implementation/src/main/java/com/example/cacheimplementation/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache-implementation/src/main/java/com/example/cacheimplementation/algorithm/LRUCacheUsingHashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recursion/src/ArraySorted.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recursion/src/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recursion/src/MergeSortImplementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recursion/src/MergeSortInPlace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recursion/src/MinPathSolution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recursion/src/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recursion/src/ReverseNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recursion/src/RotatedBinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recursion/src/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recursion/src/TowerOfHanoi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recursion/src/adityaverma/GenerateSubsetsString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recursion/src/adityaverma/ReverseStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recursion/src/adityaverma/UniqueSubsets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recursion/src/subsequence/GenerateSubsets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recursion/src/subsequence/Permutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recursion/src/subsequence/RemoveCharFromString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recursion/src/subsequence/ValidJump.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recursion/src/unacademy/MazePath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Concurrency/implementations/src/producerconsumer/ProducerConsumerImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/Concurrency/implementations/src/producerconsumer/shreyansh/ProducerConsumerImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Concurrency/implementations/src/producerconsumer/SharedResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/Concurrency/implementations/src/producerconsumer/shreyansh/SharedResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Concurrency/implementations/src/threadpool/CompletableFutureExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/Concurrency/implementations/src/threadpool/CompletableFutureExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Concurrency/implementations/src/threadpool/WorkStealingPoolForkJoinImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/Concurrency/implementations/src/threadpool/WorkStealingPoolForkJoinImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShardingImplementation/src/main/java/com/example/shardingimplementation/ShardingImplementationApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShardingImplementation/src/main/java/com/example/shardingimplementation/ShardingImplementationApplication.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,7 +186,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "spring.configuration.checksum": "b644b3f57e98ab9788e44784f9efd365",
+    "spring.configuration.checksum": "1b45c4f40b0d5d4b81c9b6743a8f43d7",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -117,6 +220,8 @@
       <updated>1708669410610</updated>
       <workItem from="1708669411643" duration="9193000" />
       <workItem from="1708711476226" duration="72000" />
+      <workItem from="1711955416714" duration="17000" />
+      <workItem from="1711955452603" duration="15000" />
     </task>
     <task id="LOCAL-00001" summary="Added Readme for pen design">
       <created>1708671441001</created>

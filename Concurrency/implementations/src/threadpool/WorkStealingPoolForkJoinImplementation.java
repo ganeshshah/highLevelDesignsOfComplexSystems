@@ -13,8 +13,6 @@ public class WorkStealingPoolForkJoinImplementation {
         ForkJoinPool pool = ForkJoinPool.commonPool();
         Future<Integer> futureObject = pool.submit(new ComputeSumTask(0,100));
         System.out.println(futureObject.get());
-
-
     }
 
 }

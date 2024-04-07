@@ -18,7 +18,7 @@ public class ThreadPoolExecutorExample {
         for(int i=0;i<25;i++){
             poolExec.submit(() -> {
                 try {
-                    Thread.sleep(5000);
+                    Thread.sleep(1000);
                     System.out.println("Thread name : " + Thread.currentThread().getName());
                 } catch (InterruptedException e) {
                     throw new RuntimeException(e);

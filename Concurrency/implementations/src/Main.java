@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.concurrent.atomic.AtomicInteger;
 
 public class Main {
     public static void main(String[] args) {
@@ -22,7 +23,12 @@ public class Main {
         list.parallelStream().forEach(System.out::println);
         long end2 = System.currentTimeMillis();
         System.out.println("time taken to retrieve and print from list using stream syntax:" + (end2-begin2));
+
     }
+
+
+
+
 
     //1371981900
     //1241605300

@@ -43,6 +43,7 @@ public class ShardingImplementationApplication implements CommandLineRunner {
 
 		Thread.sleep(1000);
 
+		System.out.println("Total rows of data per shard : ");
 		for(KeyValueRepository shards : listOfShards){
 			System.out.println(shards.getDatabaseSize());
 		}
