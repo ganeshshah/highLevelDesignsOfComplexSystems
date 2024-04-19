@@ -18,8 +18,6 @@ public class Client {
             sharedResource.consume();
         });
 
-
-
         thread4.start();
         thread3.start();
 

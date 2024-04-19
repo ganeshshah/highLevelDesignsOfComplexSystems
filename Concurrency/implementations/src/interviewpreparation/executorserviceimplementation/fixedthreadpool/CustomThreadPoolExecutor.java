@@ -38,4 +38,8 @@ public class CustomThreadPoolExecutor implements CustomExecutorService {
             //worker.interrupt();
         }
     }
+
+    public void waitUntilComplete(){
+
+    }
 }

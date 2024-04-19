@@ -27,7 +27,6 @@ public class ForkJoinPoolSolutionSelf {
             Future<Void> combinedResult = pool.submit(new WebCrawlingTask(startUrl,htmlParser));
             combinedResult.get();
             //while (!combinedResult.isDone());
-
             return(new ArrayList<>(visited));
 
         }

@@ -12,7 +12,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 public class FizzBuzz {
 
     private final int upperBound;
-    private volatile AtomicInteger num = new AtomicInteger(1);
+    private  AtomicInteger num = new AtomicInteger(1);
 
     public FizzBuzz(int upperBound) {
         this.upperBound = upperBound;

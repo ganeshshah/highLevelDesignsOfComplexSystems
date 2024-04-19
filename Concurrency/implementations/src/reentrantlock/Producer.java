@@ -35,7 +35,6 @@ public class Producer {
             System.out.println("reentrantLock released by thread : " + Thread.currentThread().getName());
             reentrantLock.unlock();
         }
-
     }
 
 
